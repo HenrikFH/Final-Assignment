@@ -11,17 +11,17 @@ body {
 	height: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
-	overflow: scroll;
+	overflow: auto;
+	
 }
 
 .tekststil{
-	background-color: grey;
-	border: solid;
-	border-color: darkred;
-	width: 50%;
+	background-color: white; /*#EADDDD;*/
+	width: 95%;
+	height: auto;
 	text-align: center;
-	position: absolute; left: 25%;
-	overflow: scroll;
+	position: absolute; left: 5%;
+	
 
 }
 
