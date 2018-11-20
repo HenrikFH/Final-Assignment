@@ -85,3 +85,11 @@
 .tre{
 	position: absolute; top: 1100px; left: 50%;
 }
+
+
+@media only screen and (max-width: 600px){
+	body{
+		background-color: green;
+
+	}
+}
