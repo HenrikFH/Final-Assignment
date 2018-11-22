@@ -12,6 +12,7 @@
     position: fixed;
     width: 98%;
     z-index: 1;
+    border: 1px solid white;
 
 
 }
@@ -25,7 +26,7 @@
     text-decoration: none;
     font-size: 17px;
     border: 1px solid white;
-
+    cursor: pointer;
 }
 
 
@@ -66,7 +67,7 @@
 
 .textposisjon{
 	border:solid;
-	padding: 10px;
+	padding: 15px;
 	position: absolute; left: 5%; right: 60%
 
 	
@@ -81,6 +82,12 @@
 .julekulerød{
 	height: 80%;
 	position: absolute; right: 15%; 
+}
+
+.folksammen{
+	height: 30%;
+	position: sticky; left: 0%; top:292.5%;
+	z-index: -3;
 }
 
 @media (max-width: 1350px){
@@ -127,15 +134,17 @@
 
 }
 
+
 .bakgrunn{
 	background: url(bakgrunn3.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: solid white;
 	height: 550px;
 	border-top-color: transparent;
 	border-right-color: transparent;
 	border-left-color: transparent;
+
 }
 .textposisjon{
 	border:solid;
@@ -202,7 +211,7 @@
 
 .bakgrunn{
 	background: url(bakgrunn3.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: solid white;
 	height: 500px;
@@ -280,7 +289,7 @@
 
 .bakgrunn{
 	background: url(bakgrunn3.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: solid white;
 	height: 350px;
@@ -300,13 +309,18 @@
 
 .logo{
 	height: 35%;
-	position: absolute; right: 0%; top: 60%;
+	position: absolute; right: 0%; top: 70%;
 	z-index: -2;
 }
  
  .julekulerød{
 	height: 35%;
-	position: absolute; right: 1%; top: 170%
+	position: absolute; right: 1%; top: 200%
+}
+.folksammen{
+	height: 25%;
+	position: sticky; left: 0%; top:292.5%;
+	z-index: -3;
 }
 
 }
@@ -354,7 +368,7 @@
 
 .bakgrunn{
 	background: url(bakgrunn3.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: solid white;
 	height: 200px;
@@ -385,4 +399,94 @@
 	position: absolute; right: 15%; 
 }
 
+}
+
+@media (max-width: 400px){
+.overskrift{
+	position: absolute; top: 15%; left: 50%;
+	font-size: 10px;
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed; top: 1%;
+    width: 98%;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+
+
+}
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	border: solid white;
+	margin-top: 55px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	width: 140%;
+}
+
+.textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 3%; right: -35%; 	
+	font-size: 15px;
+
+	
+	
+}
+.box{
+	color: white;
+	border: solid;
+	border-color: white;
+	height: 850px;
+ 	border-left-color: transparent;
+ 	border-right-color: transparent;
+ 	width: 140%;
+
+}
+
+.logo{
+	height: 0%;
+	position: absolute; right: 0%; top: 60%;
+	z-index: -2;
+}
+ 
+ .julekulerød{
+	height: 0%;
+	position: absolute; right: 15%; 
+}
+.folksammen{
+	height: 30%;
+	width: 100%;
+	position: sticky; left: 0%; top: 300%;
+	z-index: -3;
+}
 }
