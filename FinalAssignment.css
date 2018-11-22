@@ -1,4 +1,8 @@
 
+h1{
+	font-size: 35px;
+
+}
 
 .overskrift{
 	position: absolute; top: 30%; left: 50%;
@@ -29,6 +33,14 @@
     cursor: pointer;
 }
 
+#høyre a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .topnav a:hover {
     background-color: #ddd;
@@ -46,18 +58,19 @@
 
 .bakgrunn{
 	background: url(bakgrunn3.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	border: solid white;
+	border: 6px solid white;
 	border-top-color: transparent;
 	border-right-color: transparent;
 	border-left-color: transparent;
+	border-bottom-color: white;
 	height: 750px;
 }
  
 .box{
 	color: white;
-	border: solid;
+	border: 6px solid;
 	border-color: white;
 	height: 850px;
  	width: cover;
