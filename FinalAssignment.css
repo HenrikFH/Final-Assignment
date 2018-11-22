@@ -80,8 +80,8 @@
 }
 
 .julekulerød{
-	height: 80%;
-	position: absolute; right: 15%; 
+	height: 50%;
+	position: absolute; right: 20%; 
 }
 
 .folksammen{
@@ -94,6 +94,12 @@
 height: 30%;
 position: sticky;left: 20%; top: 292.5%;
 z-index: -3;
+}
+
+.tomennesker{
+	height: 35%;
+	position: sticky; left: 70%; top: 292.5%;
+	
 }
 @media (max-width: 1350px){
 
@@ -166,8 +172,13 @@ z-index: -3;
 }
 
 .julekulerød{
-	height: 80%;
-	position: absolute; right: 10%; 
+	height: 50%;
+	position: absolute; right: 20%; top: 212%;
+}
+.tomennesker{
+	height: 25%;
+	position: sticky; left: 70%; top: 292.5%;
+	
 }
  
 }
@@ -243,6 +254,11 @@ z-index: -3;
 .julekulerød{
 	height: 60%;
 	position: absolute; right: 8%; 
+}
+.tomennesker{
+	height: 20%;
+	position: sticky; left: 70%; top: 292.5%;
+	
 }
 
 }
@@ -331,6 +347,11 @@ z-index: -3;
 height: 25%;
 position: sticky;left: 20%; 
 z-index: -3;
+}
+.tomennesker{
+	height: 0%;
+	position: sticky; left: 70%; top: 292.5%;
+	
 }
 
 }
