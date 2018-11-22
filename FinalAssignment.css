@@ -90,6 +90,11 @@
 	z-index: -3;
 }
 
+.mann2{
+height: 30%;
+position: sticky;left: 20%; top: 292.5%;
+z-index: -3;
+}
 @media (max-width: 1350px){
 
 
@@ -322,6 +327,11 @@
 	position: sticky; left: 0%; top:292.5%;
 	z-index: -3;
 }
+.mann2{
+height: 25%;
+position: sticky;left: 20%; 
+z-index: -3;
+}
 
 }
 
@@ -397,6 +407,16 @@
  .julekulerød{
 	height: 0%;
 	position: absolute; right: 15%; 
+}
+.folksammen{
+	height: 25%;
+	position: sticky; left: 5%; top:292.5%;
+	z-index: -3;
+}
+.mann2{
+height: 25%;
+position: sticky; left: 60%; 
+z-index: -3;
 }
 
 }
@@ -484,9 +504,13 @@
 	position: absolute; right: 15%; 
 }
 .folksammen{
-	height: 30%;
-	width: 100%;
-	position: sticky; left: 0%; top: 300%;
+	height: 25%;
+	position: sticky; left: 5%; top:292.5%;
 	z-index: -3;
+}
+.mann2{
+height: 25%;
+position: sticky;left: 60%; 
+z-index: -3;
 }
 }
