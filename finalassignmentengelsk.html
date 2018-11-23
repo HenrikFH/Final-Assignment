@@ -11,15 +11,16 @@
 </head>
 <body id="hjem" style="background-color: #381846;">
 
-<div class="topnav">
-  <a title="Gå tilbake til forsiden." class="active" href="#hjem">Hjem</a>
-  <a title="Trykk her for å lese om oss." href="#omOss">Om oss</a>
-  <a title="Trykk her for å lese om vår ide." href="#ide">Vår ide</a> 
-  <a title="Trykk her for å komme til kontaktsiden." href="#kontakt">kontakt</a>
+<div style="outline-color: red;" tabindex="0" class="topnav">
+ 
+  <a title="Gå tilbake til forsiden." class="active" href="#hjem">Home</a>
+  <a title="Trykk her for å lese om oss." href="#omOss">About us</a>
+  <a title="Trykk her for å lese om vår ide." href="#ide">Our idea</a> 
+  <a title="Trykk her for å komme til kontaktsiden." href="#kontakt">Contact</a>
   <a title="Trykk her for å registrere." href="#registrering" target="blank">
-  Registrering</a>
+  Register</a>
   <div class="dropdown">
-  <button class="dropbtn">Language</button>
+  <button id="drop"  title="Select Language" class="dropbtn"><img style="height: 30px" src="england.png"></button>
   <div class="dropdown-content">
     <a href="finalassignmentengelsk.html">English</a>
     <a href="FinalAssignment.html">Norsk</a>
@@ -31,6 +32,16 @@
 </div>
 </div>
 
+<script type="text/javascript">
+  
+  $(".topnav").live('keypress', function (e) {
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if (e.keyCode == 13) {
+        alert('Enter Key Pressed');
+    }
+});
+
+</script>
 
 
 <div class="bakgrunn">
@@ -47,7 +58,13 @@
 <div id="omOss" class="box">
 	
 <h1  style="text-align: center;">About us</h1>
-<p class="textposisjon">English text</p>
+<p class="textposisjon">Our organisation is made for the ones that are lonely in the christmas time. Approximately ten percent does not have anyone to celebrate christmas with. Our vision is to minimize this number, and for <strong>EVERYONE
+</strong> to have someone to celebrate with. 
+<br><br>
+The idea came from one of our first employees, Felix, that invited a friend home for christmas eve, that was alone and had no one to celebrate with. He got to experience how it feels to bring joy to another person. He got this idea that everyone should have the same opportunity as his friend. 
+<br><br>
+Please write a message to us if you have any questions, feedback or if you have experienced this yourself.  
+</p>
 
 <img class="logo" src="logof.png" >
 </div>
