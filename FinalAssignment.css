@@ -1,20 +1,37 @@
 
 
+<<<<<<< HEAD
 .overskrift {
 	position: absolute;
 	top: 30%;
 	left: 50%;
+=======
+.overskrift{
+	position: absolute; top: 30%; left: 50%;
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 	font-size: 30px;
 }
 .topnav {
+<<<<<<< HEAD
 	background-color: rgba(48, 16, 125, 0.9);
 	overflow: hidden;
 	position: fixed;
 	width: 99%;
 	z-index: 1;
 	border: 1px solid white;
+=======
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed;
+    width: 98%;
+    z-index: 1;
+    border: 1px solid white;
+
+
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 }
 .topnav a {
+<<<<<<< HEAD
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
@@ -24,6 +41,16 @@
 	border: 1px solid white;
 	cursor: pointer;
 	outline-color: red;
+=======
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid white;
+    cursor: pointer;
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 }
 .topnav a:hover {
 	background-color: #ddd;
@@ -33,6 +60,7 @@
 	background-color: rgba(55, 1, 181, 0.9);
 	color: white;
 }
+<<<<<<< HEAD
 /* Dropdown Button */
 
 .dropbtn {
@@ -84,19 +112,22 @@
 	background-color: #3e8e41;
 }
 .bakgrunn {
+=======
+
+.bakgrunn{
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 	background: url(bakgrunn3.jpg);
-	background-size: 100% 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
-	border: 6px solid white;
+	border: solid white;
 	border-top-color: transparent;
 	border-right-color: transparent;
 	border-left-color: transparent;
-	border-bottom-color: white;
 	height: 750px;
 }
 .box {
 	color: white;
-	border: 6px solid;
+	border: solid;
 	border-color: white;
 	height: 850px;
 	width: cover;
@@ -127,12 +158,258 @@
 	top: 298%;
 	z-index: -3;
 }
+<<<<<<< HEAD
 .mann2 {
 	height: 30%;
 	position: absolute;
 	left: 20%;
 	top: 299%;
 	z-index: -3;
+=======
+
+.mann2{
+height: 30%;
+position: sticky;left: 20%; top: 292.5%;
+z-index: -3;
+}
+
+.tomennesker{
+	height: 35%;
+	position: sticky; left: 70%; top: 292.5%;
+	
+}
+@media (max-width: 1350px){
+
+
+.overskrift{
+	position: absolute; top: 20%; left: 50%;
+
+
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed;
+    width: 98%;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+
+
+}
+
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: solid white;
+	height: 550px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+
+}
+.textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 5%; right: 50%
+
+	
+	
+}
+
+.logo{
+	height: 60%;
+	position: absolute; right: 15%; top: 85%;
+}
+
+.julekulerød{
+	height: 50%;
+	position: absolute; right: 20%; top: 212%;
+}
+.tomennesker{
+	height: 25%;
+	position: sticky; left: 70%; top: 292.5%;
+	
+}
+ 
+}
+
+@media(max-width: 1000px){
+.overskrift{
+	position: absolute; top: 20%; left: 50%;
+	font-size: 20px;
+
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed;
+    width: 98%;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+
+
+}
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: solid white;
+	height: 500px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+
+}
+
+ .textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 1%; right: 40%
+
+	
+	
+}
+
+.logo{
+	height: 40%;
+	position: absolute; right: 10%; top: 90%;
+}
+
+.julekulerød{
+	height: 60%;
+	position: absolute; right: 8%; 
+}
+.tomennesker{
+	height: 20%;
+	position: sticky; left: 70%; top: 292.5%;
+	
+}
+
+}
+
+@media(max-width: 900px){
+.overskrift{
+	position: absolute; top: 20%; left: 50%;
+	font-size: 15px;
+
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed; top: 1%;
+    width: 98%;
+    z-index: 1;
+
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+    
+
+}
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: solid white;
+	height: 350px;
+	margin-top: 50px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+ .textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 1%; right: 28%;
+
+	
+	
+}
+
+.logo{
+	height: 35%;
+	position: absolute; right: 0%; top: 70%;
+	z-index: -2;
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 }
 .tomennesker {
 	height: 35%;
@@ -244,6 +521,7 @@
 	position: absolute;
 	top: 302%;
 	z-index: -3;
+<<<<<<< HEAD
 	}
 	.mann2 {
 	height: 30%;
@@ -369,6 +647,193 @@
 	position: absolute;
 	left: 25%;
 	top: 303%;
+=======
+}
+.mann2{
+height: 25%;
+position: sticky;left: 20%; 
+z-index: -3;
+}
+.tomennesker{
+	height: 0%;
+	position: sticky; left: 70%; top: 292.5%;
+	
+}
+
+}
+
+@media(max-width: 600px){
+.overskrift{
+	position: absolute; top: 15%; left: 50%;
+	font-size: 10px;
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed; top: 1%;
+    width: 98%;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+
+
+}
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: solid white;
+	height: 200px;
+	margin-top: 55px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+.textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 1%; right: 1%;
+	font-size: 15px;
+
+	
+	
+}
+
+.logo{
+	height: 0%;
+	position: absolute; right: 0%; top: 60%;
+	z-index: -2;
+}
+ 
+ .julekulerød{
+	height: 0%;
+	position: absolute; right: 15%; 
+}
+.folksammen{
+	height: 25%;
+	position: sticky; left: 5%; top:292.5%;
+	z-index: -3;
+}
+.mann2{
+height: 25%;
+position: sticky; left: 60%; 
+z-index: -3;
+}
+
+}
+
+@media (max-width: 400px){
+.overskrift{
+	position: absolute; top: 15%; left: 50%;
+	font-size: 10px;
+}
+
+.topnav {
+    background-color: rgba(48, 16, 125, 0.9 );
+    overflow: hidden;
+    position: fixed; top: 1%;
+    width: 98%;
+    z-index: 1;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+
+    background-color: rgba(55, 1, 181, 0.9);
+    color: white;
+
+
+}
+
+.bakgrunn{
+	background: url(bakgrunn3.jpg);
+	background-size: 100% 100%;
+	border: solid white;
+	margin-top: 55px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	width: 140%;
+}
+
+.textposisjon{
+	border:solid;
+	padding: 10px;
+	position: absolute; left: 3%; right: -35%; 	
+	font-size: 15px;
+
+	
+	
+}
+.box{
+	color: white;
+	border: solid;
+	border-color: white;
+	height: 850px;
+ 	border-left-color: transparent;
+ 	border-right-color: transparent;
+ 	width: 140%;
+
+}
+
+.logo{
+	height: 0%;
+	position: absolute; right: 0%; top: 60%;
+	z-index: -2;
+}
+ 
+ .julekulerød{
+	height: 0%;
+	position: absolute; right: 15%; 
+}
+.folksammen{
+	height: 25%;
+	position: sticky; left: 5%; top:292.5%;
+>>>>>>> cf1e0861dc97b90561af94035ac9298e6e23dd72
 	z-index: -3;
 }
 	.tomennesker {
